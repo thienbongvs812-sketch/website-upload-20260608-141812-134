@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>搜索 - 韩日经典影库</title>
+  <meta name="description" content="搜索韩国电影、日本电影、韩剧、日剧与高清不卡顿片库内容。">
+  <meta name="keywords" content="韩国电影,日本电影,韩剧,日剧,免费在线观看,高清不卡顿,字幕同步,影片搜索,电影搜索">
+  <meta name="robots" content="index,follow">
+  <meta property="og:title" content="搜索 - 韩日经典影库">
+  <meta property="og:description" content="搜索韩国电影、日本电影、韩剧、日剧与高清不卡顿片库内容。">
+  <link rel="stylesheet" href="./assets/original.css">
+  <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body class="search-page">
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./index.html" aria-label="韩日经典影库">
+        <span class="brand-mark">▶</span>
+        <span class="brand-text">韩日经典影库</span>
+      </a>
+      <nav class="desktop-nav" aria-label="主导航">
+        <a class="nav-link" href="./index.html">首页</a> <a class="nav-link" href="./categories.html">分类</a> <a class="nav-link" href="./ranking.html">热播榜</a> <a class="nav-link active" href="./search.html">搜索</a>
+      </nav>
+      <form class="header-search" action="./search.html" method="get">
+        <input type="search" name="q" placeholder="搜索影片..." aria-label="搜索影片">
+        <button type="submit">搜索</button>
+      </form>
+      <button class="menu-toggle" type="button" aria-label="打开导航菜单" aria-expanded="false">☰</button>
+    </div>
+    <div class="mobile-panel" hidden>
+      <form class="mobile-search" action="./search.html" method="get">
+        <input type="search" name="q" placeholder="搜索影片..." aria-label="搜索影片">
+        <button type="submit">搜索</button>
+      </form>
+      <nav class="mobile-nav" aria-label="移动导航">
+        <a class="mobile-link" href="./index.html">首页</a> <a class="mobile-link" href="./categories.html">分类</a> <a class="mobile-link" href="./ranking.html">热播榜</a> <a class="mobile-link active" href="./search.html">搜索</a>
+      </nav>
+    </div>
+  </header>
+  <main class="page-shell">
+    <section class="page-hero search-hero">
+      <p class="eyebrow">影片搜索</p>
+      <h1>搜索片名、地区、年份、类型或标签</h1>
+      <form class="search-page-form" action="./search.html" method="get">
+        <input id="site-search-input" type="search" name="q" placeholder="输入关键词..." aria-label="搜索关键词">
+        <button type="submit">搜索</button>
+      </form>
+    </section>
+    <section class="content-section in-page">
+      <div id="search-status" class="search-status"></div>
+      <div id="search-results" class="movie-grid search-results"></div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <a class="footer-brand" href="./index.html">韩日经典影库</a>
+        <p>韩国日本经典电影资源库：免费在线观看、高码率高清不卡顿与字幕同步观看体验攻略</p>
+      </div>
+      <div class="footer-links">
+        <a href="./index.html">首页</a>
+        <a href="./categories.html">分类</a>
+        <a href="./ranking.html">热播榜</a>
+        <a href="./search.html">搜索</a>
+      </div>
+    </div>
+    <div class="footer-copy">© 2026 韩日经典影库 · 高清不卡顿观影体验</div>
+  </footer>
+  <script src="./assets/site.js"></script>
+  <script src="./assets/search-data.js"></script>
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

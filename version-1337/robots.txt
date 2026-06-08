@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+# Static site contains 2000 movie detail pages.
